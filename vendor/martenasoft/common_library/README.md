@@ -1,1 +1,0 @@
-# This Common Library for the SimpleSymfonyWebAppSite
