@@ -1,0 +1,30 @@
+<?php
+
+// src/Common/Entity/Field/UpdatedAtTrait.php
+namespace MartenaSoft\CommonLibrary\Entity\Traits;
+
+use Doctrine\ORM\Mapping as ORM;
+
+trait UpdatedAtTrait
+{
+    #[ORM\Column(type: "datetime", nullable: true)]
+    private ?\DateTimeInterface $updatedAt = null;
+
+    public function getUpdatedAt(): ?\DateTimeInterface
+    {
+        return $this->updatedAt;
+    }
+
+    public function setUpdatedAt(?\DateTimeInterface $updatedAt): self
+    {
+        $this->updatedAt = $updatedAt;
+        return $this;
+    }
+
+    #[ORM\PreUpdate]
+    public function refreshUpdatedAt(): void
+    {
+        $this->updatedAt = new \DateTime();
+    }
+}
+

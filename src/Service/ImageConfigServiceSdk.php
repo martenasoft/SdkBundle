@@ -2,7 +2,7 @@
 
 namespace MartenaSoft\SdkBundle\Service;
 
-use MartenaSoft\SiteBundle\Dto\ActiveSiteDto;
+use MartenaSoft\CommonLibrary\Dto\ActiveSiteDto;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
 
 class ImageConfigServiceSdk

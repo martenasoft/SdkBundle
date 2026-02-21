@@ -15,5 +15,10 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "symfony/config": "8.0",
+        "symfony/dependency-injection": "8.0",
+        "symfony/http-kernel": "8.0",
+        "martenasoft/common_library": "^1.1"
+    }
 }

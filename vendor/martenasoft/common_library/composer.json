@@ -1,0 +1,19 @@
+{
+    "name": "martenasoft/common_library",
+    "description": "MartenaSoft Common library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MartenaSoft\\CommonLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MartenaSoft",
+            "email": "martena.soft@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
