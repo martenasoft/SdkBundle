@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "40bc5207c7668451d3c7445fdf3b3565",
+    "content-hash": "76c1b17df8464abc11a72413cda9ca0a",
     "packages": [
         {
             "name": "martenasoft/common_library",
-            "version": "v1.1.2",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/martenasoft/CommonLibrary.git",
-                "reference": "e52906ceeaf44bc85d7db1455c7ba3a16223cfff"
+                "reference": "2555df39b71d691bf9462cbd34a7edf879ed22df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/martenasoft/CommonLibrary/zipball/e52906ceeaf44bc85d7db1455c7ba3a16223cfff",
-                "reference": "e52906ceeaf44bc85d7db1455c7ba3a16223cfff",
+                "url": "https://api.github.com/repos/martenasoft/CommonLibrary/zipball/2555df39b71d691bf9462cbd34a7edf879ed22df",
+                "reference": "2555df39b71d691bf9462cbd34a7edf879ed22df",
                 "shasum": ""
             },
             "type": "library",
@@ -39,9 +39,9 @@
             "description": "MartenaSoft Common library",
             "support": {
                 "issues": "https://github.com/martenasoft/CommonLibrary/issues",
-                "source": "https://github.com/martenasoft/CommonLibrary/tree/v1.1.2"
+                "source": "https://github.com/martenasoft/CommonLibrary/tree/v1.0.0"
             },
-            "time": "2026-02-21T13:09:08+00:00"
+            "time": "2025-12-31T17:22:51+00:00"
         },
         {
             "name": "psr/container",
